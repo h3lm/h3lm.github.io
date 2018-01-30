@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* Queste tre righe qui sotto rendono il testo non sottolineabile dall'utente (ovviamente da "Visualizza Sorgente" si può). */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.navigation {
+  background-color: AntiqueWhite;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 20px;
+}
+
+.list li {
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 50px;
+  text-transform: uppercase;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+#btn_about {
+  color: FireBrick;
+}
+
+#btn_history {
+  color: FireBrick;
+}
+
+#btn_contact {
+  color: FireBrick;
+}
+
+#btn_faq {
+  color: FireBrick;
+}
+
+.image1 {
+  margin: 0;
+  position: fixed;
+  top: 8px;
+  right: 10px;
+}
+
+body {
+  background-image: url(https://images.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-D-mfo_Ha5FE%2FVHicjotG0CI%2FAAAAAAABXzg%2FQUIdbYtB6zQ%2Fs0%2FMotherboard%2BCPU%2Bsocket%2BUHD.jpg&f=1);
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  top: 240px;
+  text-align: center;
+}
+
+#title {
+  color: LightPink;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 150px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#btn_download {
+  background-color: AntiqueWhite;
+  color: FireBrick;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 6%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.footer p {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
